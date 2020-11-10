@@ -130,3 +130,9 @@ dmypy.json
 
 # ignore everything in the following folders
 data/**
+
+# except their sub-folders
+!data/**/
+
+# keep all .gitkeep files
+!.gitkeep
